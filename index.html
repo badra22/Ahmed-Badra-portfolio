@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Ahmed Badra</title>
 </head>
 <body>
     <header>
         <nav id="navbar" class="sticky">
-            <div class="container">
+            <div class="container ">  
                 <section id="header-title">
                     <a>PORTFOLIO</a>
                 </section>
                 <section id="page-tabs" class="navbar-collapse navbar-responsive">
                     <ul>
-                        <li><a href="#projects-section" >PORTOFOLIO</a></li>
-                        <li><a href="#intro-section" >ABOUT</a></li>
-                        <li><a href="#contact-me" >CONTACT</a></li>
+                        <li><a href="#projects-section" >portfolio</a></li>
+                        <li><a href="#about" >about</a></li>
+                        <li><a href="#contact-me" >contact</a></li>
                     </ul>
                 </section>
             </div>
@@ -37,126 +37,152 @@
                 <h1>Ahmed Badra</h1>
             </div>
             <div class="star-separator">
-                <div class="custom-line-separator"></div>
-                <i class="fa-solid fa-star fa-4x"></i>
-                <div class="custom-line-separator"></div>
+                <div class="custom-line-separator white-separator"></div>
+                <i class="fa-solid fa-star fa-4x white-icon"></i>
+                <div class="custom-line-separator white-separator"></div>
             </div>
             <div id="titles">
                 Web QA and Automation Engineer - Software Engineer
             </div>
         </div>
     </section>
-    <main>
-            <section class="portofolio-category" id="intro-section">
-                
-            </section>
-
-            <section class="portofolio-category" id="projects-section">
-                <div class="project-card">
-                    <figure class="project-img">
-                        <img src="">
-                        <figcaption class="project-title">
-                            <a href="#" target="_blank"><span>Radiology Information System</span></a>
-                        </figcaption>
-                    </figure>
-                    <div class="project-description">
-                        <p>Full stack Information system for Radiology department that enable sharing data 
-                            and access control over it inside the hospital</p>
-                    </div>
-                    <div class="project-tools">
-                        <span>Python, Flask, SQLAlchemy, HTML, CSS, Bootstrap</span>
-                    </div>
+        <section class="portofolio-category" id="projects-section">
+            <div class="project-card">
+                <figure class="project-img">
+                    <img src="">
+                    <figcaption class="project-title">
+                        <a href="#" target="_blank"><span>Radiology Information System</span></a>
+                    </figcaption>
+                </figure>
+                <div class="project-description">
+                    <p>Full stack Information system for Radiology department that enable sharing data 
+                        and access control over it inside the hospital</p>
                 </div>
-
-                <div class="project-card">
-                    <figure class="project-img">
-                        <img src="">
-                        <figcaption class="project-title">
-                            <a href="#" target="_blank"><span>Digital Filter Designer</span></a>
-                        </figcaption>
-                    </figure>
-                    <div class="project-description">
-                        <p>web application where you can design your own digital filters</p>
-                    </div>
-                    <div class="project-tools">
-                        <span>Js, HTML, CSS</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <figure class="project-img">
-                        <img src="">
-                        <figcaption class="project-title">
-                            <a href="#" target="_blank"><span>Know Your Car</span></a>
-                        </figcaption>
-                    </figure>
-                    <div class="project-description">
-                        <p>AI based web app predicting used car's price from specs</p>
-                    </div>
-                    <div class="project-tools">
-                        <span>Data analysis, Flask, ML, Python, Heroku</span>
-                    </div>
-                </div>
-                
-            </section>
-    </main>
-
-
-
-    <footer>
-        <section id="contact-me">
-            <div class="container">
-                <h2 id="contact-title" >contact me</h2>
-                <div class="star-separator">
-                    <div class="custom-line-separator"></div>
-                    <i class="fa-solid fa-star fa-4x"></i>
-                    <div class="custom-line-separator"></div>
-                </div>
-                <div class="contact-form">
-                    <form action="mailto:ahmedbadra29@gmail.com" method="POST" >
-                        <input type="text" id="name-field" name="name" placeholder="Full name" class="form-field">
-                        <input type="email" id="email-field" name="email" placeholder="Email address" class="form-field">
-                        <input type="phone" id="phone-field" name="phone" placeholder="Phone number" class="form-field">
-                        <textarea id="msg-field" name="message" rows="4" placeholder="Message" class="form-field"></textarea>
-                        <input type="submit" value="Submitted" class="contact-submit-btn">
-                    </form>
+                <div class="project-tools">
+                    <span>Python, Flask, SQLAlchemy, HTML, CSS, Bootstrap</span>
                 </div>
             </div>
+
+            <div class="project-card">
+                <figure class="project-img">
+                    <img src="">
+                    <figcaption class="project-title">
+                        <a href="#" target="_blank"><span>Digital Filter Designer</span></a>
+                    </figcaption>
+                </figure>
+                <div class="project-description">
+                    <p>web application where you can design your own digital filters</p>
+                </div>
+                <div class="project-tools">
+                    <span>Js, HTML, CSS</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <figure class="project-img">
+                    <img src="">
+                    <figcaption class="project-title">
+                        <a href="#" target="_blank"><span>Know Your Car</span></a>
+                    </figcaption>
+                </figure>
+                <div class="project-description">
+                    <p>AI based web app predicting used car's price from specs</p>
+                </div>
+                <div class="project-tools">
+                    <span>Data analysis, Flask, ML, Python, Heroku</span>
+                </div>
+            </div>
+            
         </section>
-        &copy; copyrights ahmed badra
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title white" >about</h2>
+                <div class="star-separator">
+                    <div class="custom-line-separator white-separator"></div>
+                    <i class="fa-solid fa-star fa-4x white-icon"></i>
+                    <div class="custom-line-separator white-separator"></div>
+                </div>
+                <div class="articles">
+                    <article>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore impedit quis natus officiis, repellat, consequuntur alias quidem dolore commodi delectus, numquam pariatur deleniti asperiores voluptate eos doloribus aliquam odit explicabo.
+                    </article>
+                    <article>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim officiis, totam ipsam harum vitae obcaecati velit impedit quo aut vel aliquam molestias temporibus repudiandae saepe aperiam ut soluta laborum similique?
+                    </article>
+                </div>
+            </div>
+            
+        </section>
+        
+    <section id="contact-me">
+        <div class="container">
+            <h2 class="section-title black" >contact me</h2>
+            <div class="star-separator  ">
+                <div class="custom-line-separator black-separator"></div>
+                <i class="fa-solid fa-star fa-4x black-icon"></i>
+                <div class="custom-line-separator black-separator"></div>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="POST" >
+                    <div class="form-field">
+                        <input type="text" id="name-field" name="name" placeholder="name" required>
+                        <label for="name-field">Full name</label>
+                    </div>
+                    
+                    <div class="form-field">
+                        <input type="email" id="email-field" name="email" placeholder="email" required>
+                        <label for="email-field">Email address</label>
+                    </div>
+
+                    <div class="form-field">
+                        <input type="phone" id="phone-field" name="phone" placeholder="phone" required>
+                        <label for="phone-field">Phone number</label>
+                    </div>
+
+                    <div class="form-field">
+                        <textarea id="msg-field" name="message" rows="4" placeholder="msg" required></textarea>
+                        <label for="msg-field">Message</label>
+                    </div>
+                    
+                    <input type="submit" value="send" class="contact-submit-btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="container">
+            <div class="footer-item">
+                <h2 class="footer-item-header section-title">location</h2>
+                <address>
+                    2215 John Daniel Drive Clark, MO 65243
+                </address>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer-item-header section-title">around the web</h2>
+                <div class="social-icons">
+                    <div class="social-icon"><i class="fa-solid fa-star fa-5x white-icon"></i></div>
+                    <div class="social-icon"><i class="fa-solid fa-star fa-5x white-icon"></i></div>
+                    <div class="social-icon"><i class="fa-solid fa-star fa-5x white-icon"></i></div>
+                    <div class="social-icon"><i class="fa-solid fa-star fa-5x white-icon"></i></div>
+                </address>
+            </div>
+        </div>
     </footer>
+
+    <div id="copyrights">
+        <div class="container">
+            <p>Copyrights &copy; Ahmed Badra 2024</p>
+        </div>
+    </div>
     
 
 
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const sections = document.querySelectorAll('section');
-            const navLinks = document.querySelectorAll('nav ul li a');
-
-            const options = {
-                root: null, // relative to the viewport
-                threshold: 0.7 // 50% of the section should be visible
-            };
-
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    navLinks.forEach(link => {
-                    link.classList.remove('active');
-                    if (link.getAttribute('href').substring(1) === entry.target.id) {
-                        link.classList.add('active');
-                    }
-                    });
-                }
-                });
-            }, options);
-
-            sections.forEach(section => {
-                observer.observe(section);
-            });
-        });
-    </script>
+    <script src="src/js/activeTabHighlight.js"></script>
+    <script src="src/js/shrinkNavBar.js"></script>
 
 
 </body>

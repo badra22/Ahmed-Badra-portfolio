@@ -1,0 +1,92 @@
+
+#contact-me {
+    padding: 10vh auto;
+}
+
+.contact-form {
+    height: 70vh;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-form form{
+    padding: 0 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-field {
+    width: 100%;
+    font-size: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-field input {
+    border-bottom: solid 0.05rem lightgrey;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 3vh 0;
+    width: 100%;
+    font-size: 2.3rem;
+}
+
+.form-field textarea  {
+    border-bottom: solid 0.05rem lightgrey;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 3vh 0;
+    width: 100%;
+    font-size: 2.3rem;
+}
+
+.form-field input + label,
+.form-field textarea + label {
+    position: absolute;
+    border: none;
+    color: gray;
+    padding: 2vh 0;
+    width: fit-content;
+    font-size: 2.3rem;
+}
+
+/* hide the placeholder from form inputs */
+.form-field input::placeholder,
+.form-field textarea::placeholder {
+    color: transparent;
+}
+
+/* style for labels of form inputs when placeholder is overwritten or the field is pressed on */
+.form-field input:focus + label,
+.form-field textarea:focus + label,
+.form-field input:not(:placeholder-shown) + label,
+.form-field textarea:not(:placeholder-shown) + label {
+    padding: 0.3vh;
+    font-size: 2rem;
+    transition-duration: 0.1s;
+    color: lightgray;
+}
+
+/* style for the input fields itself after pressing on them */
+.form-field input:focus,
+.form-field textarea:focus {
+    outline: none;
+    border-bottom-color: paleturquoise;
+    transition-duration: 0.1s;
+}
+
+.contact-submit-btn {
+    background-color: lightgreen;
+    padding: 2rem 3rem;
+    border: none;
+    border-radius: 8px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 2rem;
+    margin: 15px auto 0 0;
+}
