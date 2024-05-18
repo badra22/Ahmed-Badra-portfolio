@@ -42,7 +42,18 @@ footer .social-icons {
 
 .social-icon {
     color: white;
-    /* margin: 0 3px; */
+    min-width: 5vw;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: white;
+    border-radius: 100%;
+    margin: 0 3px;
+    text-align: center;
+}
+
+.social-icon i {
+    text-align: center;
 }
 
 #copyrights {
