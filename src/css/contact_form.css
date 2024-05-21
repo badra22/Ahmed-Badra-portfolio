@@ -90,3 +90,8 @@
     font-size: 2rem;
     margin: 15px auto 0 0;
 }
+
+.contact-submit-btn:hover {
+    filter: brightness(0.9);
+    transition-duration: 0.3s;
+}

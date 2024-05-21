@@ -13,13 +13,18 @@
 <body>
     <header>
         <nav id="navbar" class="sticky">
-            <div class="container ">  
+            <div class="container ">
                 <section id="header-title">
-                    <a>PORTFOLIO</a>
+                    <a href="#photo-and-title">PORTFOLIO</a>
+                </section>
+                <section id="menu-btn">
+                    <button>
+                        menu<i class="fa-solid fa-bars"></i>
+                    </button>
                 </section>
                 <section id="page-tabs" class="navbar-collapse navbar-responsive">
                     <ul>
-                        <li><a href="#projects-section" >portfolio</a></li>
+                        <li><a href="#projects-section" class="active">portfolio</a></li>
                         <li><a href="#about" >about</a></li>
                         <li><a href="#contact-me" >contact</a></li>
                     </ul>
@@ -60,50 +65,24 @@
                         <div class="project-img-container">
                             <img src="assets/img-placeholder.png">
                             <div class="get-more">
-                                <i class="fa-solid fa-plus fa-4x"></i>
+                                <i class="fa-solid fa-plus fa-6x"></i>
                             </div>
                         </div>
-                        <div class="project-details">
-                            <div class="project-header">
-                                <i class="fa-solid fa-4x"></i>
-                            </div>
-                            <h2 class="section-title black" >Radiology Information System</h2>
-                            <div class="star-separator">
-                                <div class="custom-line-separator black-separator"></div>
-                                <i class="fa-solid fa-star fa-4x black-icon"></i>
-                                <div class="custom-line-separator black-separator"></div>
-                            </div>
-                            <img src="assets/img-placeholder.png">
-                            <p>Full stack Information system for Radiology department that enable sharing data 
-                                and access control over it inside the hospital</p>
-                            <div class="close-button">
-                                <button class="close-button"><i class="fa-solid fa-x"></i> Close Window</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-img-container">
-                            <img src="assets/img-placeholder.png">
-                            <div class="get-more">
-                                <i class="fa-solid fa-plus fa-4x"></i>
-                            </div>
-                        </div>
-                        <div class="project-details">
-                            <div class="project-header">
-                                <i class="fa-solid fa-4x"></i>
-                            </div>
-                            <h2 class="section-title black" >Radiology Information System</h2>
-                            <div class="star-separator">
-                                <div class="custom-line-separator black-separator"></div>
-                                <i class="fa-solid fa-star fa-4x black-icon"></i>
-                                <div class="custom-line-separator black-separator"></div>
-                            </div>
-                            <img src="assets/img-placeholder.png">
-                            <p>Full stack Information system for Radiology department that enable sharing data 
-                                and access control over it inside the hospital</p>
-                            <div class="close-button">
-                                <button class="close-button"><i class="fa-solid fa-x"></i> Close Window</button>
+                        <div class="project-overlay fade">
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <i class="fa-solid fa-xmark fa-6x grey-icon"></i>
+                                </div>
+                                <h2 class="section-title black" >Radiology Information System</h2>
+                                <div class="star-separator">
+                                    <div class="custom-line-separator black-separator"></div>
+                                    <i class="fa-solid fa-star fa-4x black-icon"></i>
+                                    <div class="custom-line-separator black-separator"></div>
+                                </div>
+                                <img src="assets/img-placeholder.png">
+                                <p>Full stack Information system for Radiology department that enable sharing data 
+                                    and access control over it inside the hospital</p>
+                                    <button class="close-button"><i class="fa-solid fa-xmark"></i> Close Window</button>
                             </div>
                         </div>
                     </div>
@@ -112,24 +91,51 @@
                         <div class="project-img-container">
                             <img src="assets/img-placeholder.png">
                             <div class="get-more">
-                                <i class="fa-solid fa-plus fa-4x"></i>
+                                <i class="fa-solid fa-plus fa-6x"></i>
                             </div>
                         </div>
-                        <div class="project-details">
-                            <div class="project-header">
-                                <i class="fa-solid fa-4x"></i>
+                        <div class="project-overlay fade">
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <i class="fa-solid fa-xmark fa-4x"></i>
+                                </div>
+                                <h2 class="section-title black" >Radiology Information System</h2>
+                                <div class="star-separator">
+                                    <div class="custom-line-separator black-separator"></div>
+                                    <i class="fa-solid fa-star fa-4x grey-icon"></i>
+                                    <div class="custom-line-separator black-separator"></div>
+                                </div>
+                                <img src="assets/img-placeholder.png">
+                                <p>Full stack Information system for Radiology department that enable sharing data 
+                                    and access control over it inside the hospital</p>
+                                    <button class="close-button"><i class="fa-solid fa-x"></i> Close Window</button>
                             </div>
-                            <h2 class="section-title black" >Radiology Information System</h2>
-                            <div class="star-separator">
-                                <div class="custom-line-separator black-separator"></div>
-                                <i class="fa-solid fa-star fa-4x black-icon"></i>
-                                <div class="custom-line-separator black-separator"></div>
-                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img-container">
                             <img src="assets/img-placeholder.png">
-                            <p>Full stack Information system for Radiology department that enable sharing data 
-                                and access control over it inside the hospital</p>
-                            <div class="close-button">
-                                <button class="close-button"><i class="fa-solid fa-x"></i> Close Window</button>
+                            <div class="get-more">
+                                <i class="fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                        <div class="project-overlay fade">
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <i class="fa-solid fa-xmark fa-4x"></i>
+                                </div>
+                                <h2 class="section-title black" >Radiology Information System</h2>
+                                <div class="star-separator">
+                                    <div class="custom-line-separator black-separator"></div>
+                                    <i class="fa-solid fa-star fa-4x grey-icon"></i>
+                                    <div class="custom-line-separator black-separator"></div>
+                                </div>
+                                <img src="assets/img-placeholder.png">
+                                <p>Full stack Information system for Radiology department that enable sharing data 
+                                    and access control over it inside the hospital</p>
+                                    <button class="close-button"><i class="fa-solid fa-x"></i> Close Window</button>
                             </div>
                         </div>
                     </div>
@@ -138,50 +144,24 @@
                         <div class="project-img-container">
                             <img src="assets/img-placeholder.png">
                             <div class="get-more">
-                                <i class="fa-solid fa-plus fa-4x"></i>
+                                <i class="fa-solid fa-plus fa-6x"></i>
                             </div>
                         </div>
-                        <div class="project-details">
-                            <div class="project-header">
-                                <i class="fa-solid fa-4x"></i>
-                            </div>
-                            <h2 class="section-title black" >Radiology Information System</h2>
-                            <div class="star-separator">
-                                <div class="custom-line-separator black-separator"></div>
-                                <i class="fa-solid fa-star fa-4x black-icon"></i>
-                                <div class="custom-line-separator black-separator"></div>
-                            </div>
-                            <img src="assets/img-placeholder.png">
-                            <p>Full stack Information system for Radiology department that enable sharing data 
-                                and access control over it inside the hospital</p>
-                            <div class="close-button">
-                                <button class="close-button"><i class="fa-solid fa-x"></i> Close Window</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-img-container">
-                            <img src="assets/img-placeholder.png">
-                            <div class="get-more">
-                                <i class="fa-solid fa-plus fa-4x"></i>
-                            </div>
-                        </div>
-                        <div class="project-details">
-                            <div class="project-header">
-                                <i class="fa-solid fa-4x"></i>
-                            </div>
-                            <h2 class="section-title black" >Radiology Information System</h2>
-                            <div class="star-separator">
-                                <div class="custom-line-separator black-separator"></div>
-                                <i class="fa-solid fa-star fa-4x black-icon"></i>
-                                <div class="custom-line-separator black-separator"></div>
-                            </div>
-                            <img src="assets/img-placeholder.png">
-                            <p>Full stack Information system for Radiology department that enable sharing data 
-                                and access control over it inside the hospital</p>
-                            <div class="close-button">
-                                <button class="close-button"><i class="fa-solid fa-x"></i> Close Window</button>
+                        <div class="project-overlay fade">
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <i class="fa-solid fa-xmark fa-4x"></i>
+                                </div>
+                                <h2 class="section-title black" >Radiology Information System</h2>
+                                <div class="star-separator">
+                                    <div class="custom-line-separator black-separator"></div>
+                                    <i class="fa-solid fa-star fa-4x grey-icon"></i>
+                                    <div class="custom-line-separator black-separator"></div>
+                                </div>
+                                <img src="assets/img-placeholder.png">
+                                <p>Full stack Information system for Radiology department that enable sharing data 
+                                    and access control over it inside the hospital</p>
+                                    <button class="close-button"><i class="fa-solid fa-x"></i> Close Window</button>
                             </div>
                         </div>
                     </div>
@@ -190,24 +170,49 @@
                         <div class="project-img-container">
                             <img src="assets/img-placeholder.png">
                             <div class="get-more">
-                                <i class="fa-solid fa-plus fa-4x"></i>
+                                <i class="fa-solid fa-plus fa-6x"></i>
                             </div>
                         </div>
+                        <div class="project-overlay fade"></div>
                         <div class="project-details">
                             <div class="project-header">
-                                <i class="fa-solid fa-4x"></i>
+                                <i class="fa-solid fa-xmark fa-4x"></i>
                             </div>
                             <h2 class="section-title black" >Radiology Information System</h2>
                             <div class="star-separator">
                                 <div class="custom-line-separator black-separator"></div>
-                                <i class="fa-solid fa-star fa-4x black-icon"></i>
+                                <i class="fa-solid fa-star fa-4x grey-icon"></i>
                                 <div class="custom-line-separator black-separator"></div>
                             </div>
                             <img src="assets/img-placeholder.png">
                             <p>Full stack Information system for Radiology department that enable sharing data 
                                 and access control over it inside the hospital</p>
-                            <div class="close-button">
                                 <button class="close-button"><i class="fa-solid fa-x"></i> Close Window</button>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img-container">
+                            <img src="assets/img-placeholder.png">
+                            <div class="get-more">
+                                <i class="fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                        <div class="project-overlay fade">
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <i class="fa-solid fa-xmark fa-4x"></i>
+                                </div>
+                                <h2 class="section-title black" >Radiology Information System</h2>
+                                <div class="star-separator">
+                                    <div class="custom-line-separator black-separator"></div>
+                                    <i class="fa-solid fa-star fa-4x grey-icon"></i>
+                                    <div class="custom-line-separator black-separator"></div>
+                                </div>
+                                <img src="assets/img-placeholder.png">
+                                <p>Full stack Information system for Radiology department that enable sharing data 
+                                    and access control over it inside the hospital</p>
+                                    <button class="close-button"><i class="fa-solid fa-x"></i> Close Window</button>
                             </div>
                         </div>
                     </div>
@@ -304,6 +309,7 @@
 
     <script src="src/js/activeTabHighlight.js"></script>
     <script src="src/js/shrinkNavBar.js"></script>
+    <script src="src/js/showAndHideProjectDetails.js"></script>
 
 
 </body>

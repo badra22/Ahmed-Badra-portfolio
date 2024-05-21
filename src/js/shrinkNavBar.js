@@ -4,12 +4,14 @@ function checkScroll() {
     const navbar = document.getElementById('navbar');
 
     // Check if the page is scrolled down
-    if (window.scrollY > 0) {
-        navbar.classList.add("shrink-navbar");
-        navbar.classList.remove("expand-navbar");
-    } else {
-        navbar.classList.add("expand-navbar");
-        navbar.classList.remove("shrink-navbar");
+    if(window.innerWidth > 1000) {
+        if (window.scrollY > 0) {
+            navbar.classList.add("shrink-navbar");
+            navbar.classList.remove("expand-navbar");
+        } else {
+            navbar.classList.add("expand-navbar");
+            navbar.classList.remove("shrink-navbar");
+        }
     }
 }
 

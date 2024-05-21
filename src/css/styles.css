@@ -58,5 +58,10 @@
 }
 
 
-
+@media (max-width: 600px) {
+    #full-name {
+        font-size: 4rem;
+        letter-spacing: 0.3rem;
+    }
+}
 
